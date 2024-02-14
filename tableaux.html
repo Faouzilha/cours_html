@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Tableau</title>
+</head>
+    <body>
+
+        <table border="3">
+        <tr><td>1</td><td>2</td><td>3</td></tr>
+        <tr><td>4</td><td>5</td><td>6</td></tr>      
+        </table>
+        <br>
+        <table border="1">
+            <tr>
+                <th width="300" colspan="3" align="center">Boutique de Lilou's</th>
+            </tr>
+            <tr>
+                <th>Articles</th><th>Qté</th><th>Total</th>
+            </tr>
+            <tr>
+                <td align="left">Bijoux</td>
+                <td align="center">5</td>
+                <td align="right">150.00</td>
+            </tr>
+            <tr>
+                <td align="left">Savon</td>
+                <td align="center">10</td>
+                <td align="right">70.00</td>
+            </tr>
+            <tr>
+                <td align="left">Paréo</td><td align="center">3</td>
+                <td align="right">280.00</td>
+            </tr>
+        </table>
+        <br>
+     
+        <table border>
+            <tr>
+                <th></th>
+                <th colspan = "2">En millions d'Euros</th>
+                <th rowspan="2">2015 en €/Hab.</th>
+            </tr>
+            <tr>
+                <tr align="center">
+                <th>Région</th>
+                <th>2014</th>
+                <th>2015</th>
+                <!-- <th colspan="2"></th> -->
+            </tr>
+            <tr align = "center">
+                <td>Ile-de-france</td><td>399258</td><td>415920</td><td>178,8</td>
+            </tr>
+            <tr align = "center">
+                <td>Midi-pyrénées</td><td>73961</td><td>63826</td><td>219,4</td>
+            </tr>
+            <tr align = "center">
+                 <td>Centre</td><td>43638</td><td>55802</td><td>185,9</td>
+            </tr>
+        </table>
+
+        <br>
+        <form action = "mailto:john.doe@oracle.fr" method = "post">
+            <table>
+            <tr><td>Entrez votre nom</td><td><input type = "text" name = nom></td></tr>
+            
+            <tr><td>Entrez votre adresse e-mail</td><td><input type = "text" name = nom></td></tr>
+            
+            <tr><td>Etes-vous client de la fnac ?</td>
+            
+            <td>OUI <input type = "radio" name = "client" value = "oui" checked>
+            
+            NON <input type = "radio" name = "client" value = "non" ></td></tr>
+            
+            <tr><td><input type = "submit" value = "Envoyer" style="background-color: blue; color:blanchedalmond; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;" ></td>
+            <td><input type = "reset" value = "Annuler" style="background-color:slategrey; color:blanchedalmond; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;"></td></tr>
+            </table>
+            </form>
+
+</body>
+</html>

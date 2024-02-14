@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(207, 171, 171);
+}
+p{
+    color: rgb(10, 7, 7);
+
+}
+h1{
+    color: blueviolet;
+}

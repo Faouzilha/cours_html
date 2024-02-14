@@ -1,0 +1,95 @@
+* { 
+    font-family: Verdana;
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 18px;
+}
+
+ul > li {
+    color: blue;
+    background: #FF4040;
+    /* haut | droit | bas | gauche */
+    margin: 14px 14px 14px 14px;
+    list-style: square;
+}
+
+.info{
+    background: yellow;
+    color: blue;
+}
+
+.premier {
+    font-size: 38px;
+}
+
+#deuxieme {
+    background: rgb(89, 211, 116);
+    color: rgb(255, 0, 170);
+}
+
+/* Mets en gras le premier élément p enfant de l'élément div */
+div p:first-child {
+    font-weight: bold;
+}
+
+a:link {
+    color: fuchsia;
+}
+
+/* a:visited {
+    color: navy;
+} */
+
+input[type=text]:focus {
+    background: red;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align : center; 
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    /* padding contrôle l’espace entre le contenu et la bordure de l’élément. */
+    padding: 10px;
+    /* margin contrôle l’espace entre l’élément actuel et les autres éléments de la page */
+    margin: 0 10px;
+}
+
+nav a:hover{
+    background-color: #e43a3a;
+}
+
+footer{
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    background-color: #333;
+    position: relative;
+    width: 100%;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+p a:hover {
+    color: #007bff;
+}
